@@ -10,9 +10,5 @@ class TestEjercicio(unittest.TestCase):
     self.assertEqual(resultado_esperado_6, subject.obtener_divisores(6))
     self.assertEqual(resultado_esperado_10, subject.obtener_divisores(10))
 
-  def test_should_fail(self):
-    print("Slin rompió el build")
-    self.assertEqual(1, 2)
-
 if __name__ == '__main__':
   unittest.main()
